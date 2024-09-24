@@ -1,0 +1,44 @@
+﻿body {
+    background-color: lightgray;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: darkblue;
+}
+
+#Title {
+    font-size: 2.5em;
+}
+
+#CoverArt {
+    margin-top: 20px;
+    width: 300px;
+    height: 450px; 
+    object-fit: cover; /* Ensures that the image scales without distortion */
+    border-radius: 0; /* Keeps the image in its original shape */
+}
+
+#Rating {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+#Trailer {
+    margin-top: 20px;
+}
+
+#Summary {
+    margin: 20px auto;
+    width: 60%;
+    font-size: 1.2em;
+}
+
+#Actors {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 15px;
+}
+
+#Actors li {
+    display: inline;
+    margin: 0 10px;
+}
